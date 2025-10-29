@@ -64,3 +64,4 @@ The robot should attempt to move to the test pose.
 - Joint angles are in degrees from Vision Pro topic
 - Converted to radians for URScript
 - Speed and acceleration can be adjusted via ROS parameters
+- Currently only work on the communication between ROS and the real UR. If remapping is involved, other solutions will be needed.
